@@ -1,0 +1,56 @@
+body{
+  background-size : 100%;
+  background-repeat: no-repeat;
+}
+
+header{
+  top : 0px;
+  width : 900px;
+  background-color : #CCCCCC;
+  border-radius : 10px;
+  margin-bottom : 0px;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+header h1{
+  font-size : 2.3rem;
+}
+
+header h1 span{
+  font-size : 1.5rem%;  
+  font-family : "Courier New";
+}
+
+#outer-container{
+  width : 100%;
+  height : 600px;
+  background-color : transparent;
+  position : relative;
+}
+
+#scene-container{
+  display : inline-block;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height : 600px;
+  width  : 900px;
+}
+
+
+#menu-container {
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color : #CCC;
+  border: 4px solid black;
+  height: 600px;
+}
+
+#menu-container div{
+  background-color : #CCC;
+  border     : 3px solid black;
+  border-top : 0px solid black;
+  height : 150px;
+}
