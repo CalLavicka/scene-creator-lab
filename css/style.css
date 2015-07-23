@@ -37,7 +37,10 @@ header h1 span{
   width  : 900px;
 }
 
-
+#scene-container img{
+  display: inline;
+  z-index: 3;
+}
 #menu-container {
   width: 400px;
   position: absolute;
@@ -53,4 +56,12 @@ header h1 span{
   border     : 3px solid black;
   border-top : 0px solid black;
   height : 150px;
+}
+
+#menu-container img {
+  height: 50px;
+}
+
+#menu-container li {
+  display: inline;
 }
